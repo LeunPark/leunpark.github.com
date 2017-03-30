@@ -31,7 +31,7 @@
 	</header>
 	<div class="wrapper">
 		<div class="container">
-			<div class="experience">
+			<div class="experience" id="csat">
 				<h1>AFK &diams; Retake the CSAT<sup><a href="https://en.wikipedia.org/wiki/College_Scholastic_Ability_Test_(South_Korea)">?</a></sup></h1>
 				<table>
 					<tbody><tr>
@@ -118,7 +118,9 @@
 		<br><br><a href="donate.html">donate</a><!-- · <a href="https://status.stypr.com/">status</a>-->
 	</footer>
 <script>
-var a=new Date,b=new Date("11/16/2017"),c=(241-parseInt((b-a)/864e5))/241*100,d=document.getElementById("p");c>100&&(c=100);d.style.width=c+"%",d.innerHTML="&nbsp;"+c.toFixed(3)+"%";
-var e=new Date("3/2/2017"),f=parseInt((a-e)/2592e6),g=document.getElementById("q");f>0&&(g.innerText=f+" month",f>1&&(g.innerText+="s"));
+//var a=new Date,b=new Date("11/16/2017"),c=(241-parseInt((b-a)/864e5))/241*100,d=document.getElementById("p");c>100&&(c=100);d.style.width=c+"%",d.innerHTML="&nbsp;"+c.toFixed(3)+"%";
+//var e=new Date("3/2/2017"),f=parseInt((a-e)/2592e6),g=document.getElementById("q");f>0&&(g.innerText=f+" month",f>1&&(g.innerText+="s"));
+
+var a=new Date("3/20/2017"),b=new Date("11/16/2017"),c=b-a,d=document.getElementById("p"),e=parseInt((new Date-new Date("3/2/2017"))/2592e6),f=document.getElementById("q");e>0&&(f.innerText=e+" month"),e>1&&(f.innerText+="s");var g=setInterval(function(){var k=((new Date-a)/c*100).toFixed(8);k>=100&&(k=100,clearInterval(g)),d.style.width=k+"%",d.innerHTML="&nbsp;"+k+"%"})
 </script>
 </body></html>
