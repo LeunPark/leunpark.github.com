@@ -360,16 +360,14 @@ class App extends React.Component {
     return (
       <Wrapper>
         <Title>
-          <LinkHome href="https://www.skt.ai/" target="_blank"></LinkHome>
+          <LinkHome href="https://www.leunpark.com/" target="_blank"></LinkHome>
           <AppName>KoGPT-2 Explorer</AppName>
         </Title>
         <Intro>
-          이 페이지는 KoGPT2의 데모를 위한 페이지입니다.
-          개발 과정의 정성적 성능을 보기 위한 페이지로 모델은 언제든지 바뀔 수 있습니다.
+          이 사이트는 김상현 군과의 대화를 위한 GPT의 모델 데모 페이지입니다.
           <br></br>
           <br></br>
-          한글 어절을 입력하면 그 다음 단어를 생성해주며, 후보를 클릭함으로써 계속 생성해 낼 수 있습니다. Undo버튼을 누르면
-          마지막 선택이 제거됩니다. '▁'는 공백을 의미합니다.
+          최근 카카오톡 개인정보 유출 논란으로 인해 김상현 군의 대화 정보를 학습시키지 못했습니다
         </Intro>
         <InputOutput>
           <InputOutputColumn>
@@ -402,9 +400,7 @@ class App extends React.Component {
           </InputOutputColumn>
         </InputOutput>
         <Footer>
-          <a href="https://www.skt.ai/" target="_blank">SKT AIX</a>에서 제공하고 있으며
-          UI는 <a href="https://github.com/allenai/lm-explorer">lm-explorer</a>를 기반으로 작성되었습니다.
-          문의 사항은 <a href="mailto:gogamza@skair.com">gogamza@sktair.com</a>로 주세요.
+          문의 사항은 <a href="mailto:me@leunpark.com">me@leunpark.com</a>로 주세요.
         </Footer>
       </Wrapper>
     )
